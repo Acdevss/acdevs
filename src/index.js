@@ -93,7 +93,7 @@ const app = () => {
   
   const COMMANDS = {
     help:
-      'Supported commands: ["<span class="code">about</span>", "<span class="code">links</span>"]',
+      'Supported commands: ["<span class="code">about</span>", "<span class="code">links</span>", <span class="code">clear</span>"]',
     about:
       "Hello 👋<br>I'm ton1o_02 o coolbytess on git and instagram. I’m a 20 yr old engineering student currently living in Spain. I have a burning passion to help others and to create content on social media. I enjoy coding and playing videogames ;)",
     links:
