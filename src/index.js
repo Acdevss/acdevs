@@ -93,13 +93,15 @@ const app = () => {
   
   const COMMANDS = {
     help:
-      'Supported commands: ["<span class="code">about</span>", "<span class="code">links</span>", <span class="code">clear</span>"]',
+      'Supported commands: ["<span class="code">about</span>", <span class="code">store</span>", "<span class="code">links</span>"]',
     about:
-      "Hello 👋<br>I'm ton1o_02 o coolbytess on git and instagram. I’m a 20 yr old engineering student currently living in Spain. I have a burning passion to help others and to create content on social media. I enjoy coding and playing videogames ;)",
+      "Hello 👋<br>I'm Acdevs or ton1o_02 on git, instagram and twitch. I’m a 20 yr old engineering student currently living in Spain. I have a burning passion to help others and to create content on social media. I enjoy coding and cycling 🚴‍♂️",
     links:
-      '<span class="links"><a style="color: green;" href="https://www.instagram.com/coolbytess/"> Instagram</a> 👈Click here</span><br><span><a style="color: green;" href="https://www.youtube.com/channel/UCK_VWpVnsu4fTPCtHdecunw">Youtube</a> 👈click here</span><br><span><a style="color: green;" href="https://www.twitch.tv/ton1o_02">Twitch</a> 👈click here</span>',
+      '<span class="links"><a style="color: green;" href="https://www.instagram.com/cl3anartz/"> Instagram</a> 👈Click here</span><br><span><a style="color: green;" href="https://www.youtube.com/channel/UCK_VWpVnsu4fTPCtHdecunw">Youtube</a> 👈click here</span><br><span><a style="color: green;" href="https://www.twitch.tv/ton1o_02">Twitch</a> 👈click here</span><br><span><a style="color: green;" href="https://github.com/Acdevss"> GitHub</a> 👈Click here</span>',
+    store:
+      '<span class="links"><a style="color: green;" href="www.yugraphs.tk"> Yü-Graphs</a> 👈Click here</span>',
     clear:
-        '<button class="raise" onclick="location.reload()">Click for clear the screen</button>',
+       '<button class="raise" onclick="location.reload()">Click for clear the screen</button>',
     };
   
     let refresh = document.getElementById('refresh');
