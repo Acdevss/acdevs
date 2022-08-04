@@ -139,8 +139,13 @@ a {
 @media only screen and (max-width: 600px) {
     body,
     html{
-        height: 40%;
-        width: 40%;
+        text-align: center;
+        position: relative;
+        margin: -25px 0 0 -25px;
+        background-color: #3A3A59;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
 
     /* body{
@@ -148,15 +153,4 @@ a {
         background-repeat: no-repeat;
         background-size: 300px 100px;
     } */
-
-    .centered{
-        background-color: #0c1016;
-        font-family: 'Roboto';
-        font-size: small;
-        height: 60%;
-        width: 60%;
-        display: grid;
-        align-items: center;
-        justify-content: center;
-    }
   } 
