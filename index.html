@@ -1,79 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- some bugs fixed -->
-    <title>&nbsp;Web links terminal</title>
-    <meta
-      name="page created with the help of the template Custom Portfolio Terminal by Twan Mulder"
-      content="ton1o_02 web links"
-    />
-     <!--Twan git hub - https://github.com/twanmulder -->
-    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
+<html>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
-    />
-    <link rel="stylesheet" href="./src/styles.css" />
+<head>
+    <link rel="stylesheet" href="src/styles_index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-    <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.17/dist/index.min.js"></script>
-  </head>
-  <body>
-    <canvas id="canvas"></canvas>
-    <section class="hero is-fullheight">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <div class="column is-flex">
-              <div class="column-child terminal shadow">
-                <div class="terminal-bar dark-mode">
-                  <div class="icon-btn close"></div>
-                  <div class="icon-btn min"></div>
-                  <div class="icon-btn max"></div>
-                  <div
-                    class="terminal-bar-text is-hidden-mobile dark-mode-text"
-                  >
-                    guest@acdevs: ~
-                  </div>
-                </div>
-                <div
-                  class="terminal-window primary-bg"
-                  onclick="document.getElementById('dummyKeyboard').focus();"
-                >
-                  <div class="terminal-output" id="terminalOutput">
-                    <div class="terminal-line">
-                      <span class="help-msg"
-                        >Welcome to my links page! — Type
-                        <span class="code">help</span> for a list of
-                        commands.</span
-                      >
-                    </div>
-                  </div>
-                  <div class="terminal-line">
-                    <span class="success">➜</span>
-                    <span class="directory">~</span>
-                    <span class="user-input" id="userInput"></span>
-                    <input
-                      type="text"
-                      id="dummyKeyboard"
-                      class="dummy-keyboard"
-                      autocomplete="off"
-                    />
-                  </div>
-                </div>
-              </div>
+<body>
+    <div class="centered">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="animate"><a href="index.html">Acdevs Links</a></h3>
             </div>
-          </div>
         </div>
-      </div>
-      <footer class="footer">
-        <div class="content has-text-centered">
-          <p>Acdevss links</p>
-        </div>
-      </footer>
-    </section>
-    <script src="./src/index.js"></script>
-  </body>
+        <button class="button">
+            <span><a href="https://www.instagram.com/cl3anartz/">Instagram</a></span>
+        </button>
+        <button class="button">
+            <span><a href="https://www.youtube.com/channel/UCK_VWpVnsu4fTPCtHdecunw">Youtube</a></span>
+        </button>
+        <button class="button">
+            <span><a href="https://github.com/Acdevss">Github</a></span>
+        </button>
+        <button class="button">
+            <span><a href="https://www.yugraphs.tk/">Graphics Store</a></span>
+        </button>
+        <button class="button">
+            <span><a href="https://www.twitch.tv/ton1o_02">Twitch</a></span>
+        </button>
+        <button class="button2">
+            <span><a class="notallowed" href="">Portfolio</a></span>
+        </button>
+    </div>
 </html>
