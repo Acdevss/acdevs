@@ -5,7 +5,7 @@ $(function () {
 })
 //social media links
 function twitter() {
-    window.location.href = "https://twitter.com/acdevss";
+    window.location.href = "https://twitter.com/acdevs_official";
 }
 function github() {
     window.location.href = "https://github.com/Acdevss";
@@ -14,7 +14,7 @@ function behance() {
     window.location.href = "https://www.behance.net/acdevs";
 }
 function instagram() {
-    window.location.href = "https://www.instagram.com/acdevss";
+    window.location.href = "https://www.instagram.com/acdevss2023/";
 }
 //rights
 function rights(){
